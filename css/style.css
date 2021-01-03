@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+
+}
+
+.wrapper {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 'header' 'main';
+}
+
+.header {
+  color: white;
+  background-color: #052a32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.header {
+  grid-area: header;
+}
+
+
+.header .title {
+  font-size: 2em;
+}
+
+.main {
+  grid-area: main;
+
+  background-color: #04b4ff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+
+  **********
+  RESPONSIVE
+  **********
+
+ */
+
+@media screen and (min-width: 600px) {
+}
